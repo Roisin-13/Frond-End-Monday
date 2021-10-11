@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*---------body---------*/
+body{
+    margin: 10px;
+    border-color:  grey;
+    border-style: double;
+}
+.page {
+    padding: 5px;
+    background-color: #fff9e6;
+}
+/*---------name---------*/
+.name {
+    height: auto;
+    font-size: 30px;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 50px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    color: black;
+    overflow: hidden;
+}
+.red {
+    color: maroon;
+}
+/*------------text boxes------*/
+h2 {
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 5px;
+}
+.textBox {
+    /*border: 1px solid blue;*/
+    height: auto;
+    margin: 10px;
+    padding: 15px;
+}
+ul {
+    list-style: none;
+}
+.education, .workExperience {
+    margin: 5px;
+}
+.date, .place {
+    font-weight: bold;
+}
+#fontA {
+    font-size: 15px;
+}
